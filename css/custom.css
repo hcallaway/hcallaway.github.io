@@ -1,3 +1,32 @@
 dl {
     padding-left: 7em
 }
+
+#skills span {
+    top: -40px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+
+progress {
+    background-color: #212529;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #212529;
+}
+
+progress::-webkit-progress-value {
+    background-color: #F05F40;
+}
+
+progress::-moz-progress-bar {
+    background-color: #F05F40;
+}
