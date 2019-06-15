@@ -30,3 +30,15 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
     background-color: #F05F40;
 }
+
+.navbar{
+  transition:500ms ease !important;
+  background:transparent !important;
+}
+.navbar.scrolled{
+  background: #212529 !important;
+}
+
+.orange {
+  color: #F05F40;
+}
